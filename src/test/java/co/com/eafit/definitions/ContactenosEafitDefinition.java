@@ -27,7 +27,7 @@ public class ContactenosEafitDefinition {
 		contactenosEafitSteps.diligenciarComentario( dtDatos );
 	}
 
-	@Then("^el visualiza el pantalla el mensaje (.*)$")
+	@Then("^el visualiza el pantalla  el mensaje (.*)$")
 	public void elVisualizaElPantallaElMensajeMuchasGraciasPorSuComentario(String mensaje) throws Exception {
 		contactenosEafitSteps.comentarioExitoso( mensaje );
 	}
